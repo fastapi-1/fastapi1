@@ -4,7 +4,7 @@ WORKDIR /var/www
 
 COPY  /fastapi1/sql_app/requirments.txt .
 
-RUN pip install -r requirments.txt
+RUN pip install -r requirements.txt
 
 COPY sql_app .
 
