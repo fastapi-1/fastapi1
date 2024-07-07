@@ -2,7 +2,7 @@ FROM python:3.12.3
 
 WORKDIR /var/www
 
-COPY  /fastapi1/sql_app/requirments.txt .
+COPY  /fastapi1/sql_app/requirements.txt .
 
 RUN pip install -r requirements.txt
 
